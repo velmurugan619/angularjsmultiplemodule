@@ -1,0 +1,6 @@
+<div class="container" ng-controller="headerCtrl as header">
+    <div class="row">
+        <img src="{{header.userImage}}" class="header-image">
+        <div ng-bind="header.userName"></div><a ng-if="header.userName" ng-click="header.logOut()">logout</a>
+    </div>
+</div>

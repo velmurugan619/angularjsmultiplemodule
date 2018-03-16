@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <form name="userlogin" ng-submit="login.onLogin(userDetail)">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" ng-model="userDetail.email" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <lable for="password">Password</lable>
+                <input type="password" class="form-control" ng-model="userDetail.password" autocomplete="off">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+</div>
